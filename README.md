@@ -100,7 +100,7 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | Yes                 |   100.15.155.113     |
-| ELK      | No                  |   100.15.155.113     |
+| ELK      | Yes                  |   100.15.155.113     |
 |          |                     |                      |
 
 ### Elk Configuration
