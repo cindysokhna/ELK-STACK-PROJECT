@@ -2,9 +2,9 @@
 ## CINDY's README
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+![](diagrams/DIAGRAM.PNG)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+
 
 Playbook File
 
@@ -76,7 +76,7 @@ Load balancing ensures that the application will be highly *available*, in addit
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the *file systems of the VMs on the network*, as well as watch *system metrics*, such as CPU usage; attempted SSH logins; `sudo` escalation failures; etc.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -89,7 +89,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 The machines on the internal network are not exposed to the public Internet. 
 
-- _TODO: Add whitelisted IP addresses_
+
 Only the **jump box** machine can accept connections from the Internet. Access to this machine is only allowed from the IP address `100.15.155.113`
 
 
@@ -132,7 +132,7 @@ These Beats allow us to collect the following information from each machine:
 - **Metricbeat**: Metricbeat detects changes in system metrics, such as CPU usage. We use it to detect SSH login attempts, failed `sudo` escalations, and CPU/RAM statistics.
 - **Packetbeat**: Packetbeat collects packets that pass through the NIC, similar to Wireshark. We use it to generate a trace of all activity that takes place on the network, in case later forensic analysis should be warranted.
 
-### Using the Playbookc
+### Using the Playbook
 In order to use the playbooks, you will need to have an Ansible control node already configured. We use the **jump box** for this purpose.
 
 To use the playbooks, we must perform the following steps:
