@@ -2,7 +2,7 @@
 ## CINDY's README
 The files in this repository were used to configure the network depicted below.
 
- ![](diagrams/DIAGRAM.PNG)
+ ![](diagrams/DIAGRAM.png)
 
 
 
@@ -118,7 +118,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![](diagrams/DIAGRAM.PNG)
+![](diagrams/DIAGRAM.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
